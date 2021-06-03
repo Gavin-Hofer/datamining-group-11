@@ -9,8 +9,7 @@ Our code for each of these approaches in contained in the following python noteb
 
 clustering_svd.ipynb - K-Means Clustering and DBSCAN using TruncatedSVD for dimensionality reduction
 
-dnn_classification.ipynb - Contains two Dense Neural Network models to attempt to classify the data based on release year. 
-Inputs to the DNN models are preprocessed using PCA for dimensionality reduction. Also contains a K-Means clustering
-implementation.
+dnn_classification.ipynb - Contains two Dense Neural Network models to attempt to classify the data based on release year.
+Inputs to the DNN models are preprocessed using PCA for dimensionality reduction.
 
 dnn_regression.ipynb - Contains a DNN model with a single output neuron that predicts the release year.
