@@ -1,15 +1,19 @@
 # Functions for visualizing the results of the clustering
 from typing import  Any
-from nptyping import NDArray
 from sklearn.metrics import pairwise
 from matplotlib import pyplot as plt
 import numpy as np
+from tensorflow.keras.callbacks import History
+
+
+def plot_loss(history: History):
+    """Plot t"""
 
 
 # %% plot_similarity_matrix
 def plot_similarity_matrix(
-    points: NDArray[(Any, Any), float],
-    labels: NDArray[(Any,), int]
+    points: np.ndarray,
+    labels: np.ndarray
 ) -> plt.Figure:
     """Plot a 2D heatmap of the similarity matrix created from the
     points, sorted by cluster
