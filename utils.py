@@ -1,11 +1,5 @@
-import numpy as np
 import pandas as pd
 from typing import Tuple
-
-# %% Constants
-DATA_FILE = "./data/YearPredictionMSD.txt"
-TRAIN_IDX = np.arange(0, 463715, dtype=int)
-TEST_IDX = np.arange(463715, 463715 + 51630, dtype=int)
 
 
 # %% Dataset class
